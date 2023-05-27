@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=;;, initial-scale=1.0">
+    <title>DevKids - นักเขียนโปรแกรมตัวจิ๋ว</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/public/bootstrap/css/bootstrap.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="/public/fontawesome/css/all.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/public/css/index.css">
+</head>
+
+<body>
+    <header>
+        <%- include('partials/navbar'); %>
+            <%- include('partials/banner'); %>
+    </header>
+
+    <br>
+
+    <div class="container">
+        <h1 style="background-color: #ff0000; color: #ffffff; padding: 20px;"><i class="far fa-newspaper"></i>
+            บทความล่าสุด</h1>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://scontent.fbkk29-9.fna.fbcdn.net/v/t39.30808-6/348850073_772688404303168_1019246183593599107_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeHrOWxyH9nR7qW_ttpYfeq10-ISZ6AdYEjT4hJnoB1gSJLWCEVtGTUZdNQFe3JQ1Nk6ui928sbgybAAtmqHSAxq&_nc_ohc=lQTUQHGbd_IAX90ci0w&_nc_ht=scontent.fbkk29-9.fna&oh=00_AfC7SVxFo45mxP-PeR1CutbeNRvA5twx52p5eY4qvnduaw&oe=647620B7"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">อ่าน</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <footer>
+        <%- include('partials/footer'); %>
+    </footer>
+
+    <script src="/public/bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
